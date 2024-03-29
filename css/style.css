@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  margin-top: -20px;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Left sidebar */
+.logo-twitter {
+  margin-left: 45px;
+}
+
+.twitter-menu li {
+  background-color: #000;
+  border: none;
+  font-size: 16pt;
+  padding: 10px 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  line-height: 5px;
+}
+
+.twitter-menu li i {
+  width: 45px;
+}
+
+.twitter-menu li a {
+  text-decoration: none;
+  color: #e6e9ea;
+}
+
+.twitter-menu li:hover {
+  background-color: #181818;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 23px;
+}
+
+/* End left sidebar */
+
+/* Feed Area */
+
+.main-content {
+  border: 1px solid rgba(148, 147, 147, 0.333);
+  border-left: 1px solid rgba(148, 147, 147, 0.333);
+  border-right: 1px solid rgba(148, 147, 147, 0.333);
+  border-bottom: 1px solid rgba(148, 147, 147, 0.333);
+}
+
+.Icons {
+  margin-left: 11px;
+}
+
+.Icons i {
+  margin-right: 10px;
+}
+
+.feed-items {
+  border: 1px solid rgba(148, 147, 147, 0.333);
+  border-bottom: 1px solid rgba(148, 147, 147, 0.333);
+}
+
+.name h2 {
+  background-color: rgb(0, 0, 0);
+  color: #e6e9ea;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: -30px;
+}
+
+.name i {
+  margin-right: 15px;
+  width: 20px;
+  margin-top: 15px;
+  display: flex;
+  color: #e6e9ea;
+}
+
+/* notification style */
+
+.container-fluid .navbar-brand {
+  position: relative;
+  padding: 0 10px;
+}
+
+.container-fluid .navbar-brand:after {
+  content: "";
+  position: absolute;
+  background-color: #198cd8;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+}
+
+.container-fluid .navbar-brand:hover {
+  color: #fff;
+}
+
+.container-fluid .navbar-brand:hover:after {
+  width: 100%;
+  
+}
